@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-'''This module function to_kv that takes a string k and
-an int OR float v as arguments and returns a tuple.'''
+'''This module contains a function to_kv that takes a
+string k and an int OR float v as arguments and
+returns a tuple.'''
 from typing import Tuple, Union
 
 
