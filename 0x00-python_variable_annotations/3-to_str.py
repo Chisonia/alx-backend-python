@@ -4,4 +4,6 @@ returns the string representation of the float'''
 
 
 def to_str(n: float) -> str:
+    '''This function takes a float argument
+    and return the string representation'''
     return str(n)
