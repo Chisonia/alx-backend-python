@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import math
-'''The module is a function that return floor of float'''
+'''The module contains a function that takes 
+a float and return it's floor as an integer'''
 
 
 def floor(n: float) -> int:
