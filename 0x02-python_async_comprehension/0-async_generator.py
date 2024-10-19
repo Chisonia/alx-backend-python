@@ -3,10 +3,10 @@
 that yields random numbers asynchronously.'''
 import asyncio
 import random
-from typing import Union
+from typing import Generator
 
 
-async def async_generator() -> Union[any, any]:
+async def async_generator() -> Generator[float, None, None]: # type: ignore
     """Asynchronously generate 10 random numbers
     between 0 and 10."""
     for _ in range(10):
